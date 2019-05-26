@@ -21,10 +21,10 @@ class PostList extends Component {
               className="list-group-item list-group-item-action flex-column align-items-start mt-3"
             >
               <div className="d-flex w-100 justify-content-between">
-                <h5 className="mb-1">{post.title}</h5>
+                <h5 className="mb-3">{post.title}</h5>
                 <small>Post ID:{post.id}</small>
               </div>
-              <p className="mb-1">
+              <p className="mb-2">
                {post.body}
               </p>
               <UserName userId={post.userId} />
